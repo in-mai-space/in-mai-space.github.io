@@ -18,28 +18,29 @@ While building this project, I designed the user interface of the webpage using 
 * Toggle that change between dark and bright mode 
 * Animation as user scrolls through
 
+
 3. **Reference & Credit** 
 
 **Tutorials:** 
-[W3Schools Online Web Tutorials](https://www.w3schools.com/)
-[CSS Grid](https://www.youtube.com/watch?v=68O6eOGAGqA)
-[Flexbox](https://www.youtube.com/watch?v=u044iM9xsWU)
-[View more button](https://www.youtube.com/watch?v=yShTNwyWa_E)
-[Scroll Reveal Effects](https://www.youtube.com/watch?v=Zwa5z9Ws7y4)
-[HTML & CSS Timeline Design](https://www.youtube.com/watch?v=bI3J5rUonEg)
+* [W3Schools Online Web Tutorials](https://www.w3schools.com/)
+* [CSS Grid](https://www.youtube.com/watch?v=68O6eOGAGqA)
+* [Flexbox](https://www.youtube.com/watch?v=u044iM9xsWU)
+* [View more button](https://www.youtube.com/watch?v=yShTNwyWa_E)
+* [Scroll Reveal Effects](https://www.youtube.com/watch?v=Zwa5z9Ws7y4)
+* [HTML & CSS Timeline Design](https://www.youtube.com/watch?v=bI3J5rUonEg)
 
 **Library:** 
-[ScrollReveal](https://scrollrevealjs.org/)
-[jQuery](https://jquery.com/)
+* [ScrollReveal](https://scrollrevealjs.org/)
+* [jQuery](https://jquery.com/)
 
 **Icons:** 
-[Feather](https://feathericons.com/)
+* [Feather](https://feathericons.com/)
 
 **Google Fonts:** 
-Alfa Slab One 
-Instrument Sans 
-Nanum Pen Script 
-Red Hat Display
-Teko 
-Work Sans 
+* Alfa Slab One 
+* Instrument Sans 
+* Nanum Pen Script 
+* Red Hat Display
+* Teko 
+* Work Sans 
 
