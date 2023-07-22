@@ -8,18 +8,18 @@ While building this project, I designed the user interface of the webpage using 
 ![](Screenshot%202023-06-06%20at%206.48.12%20PM.png)
 
  
-**Major challenges that I face:** 
+**MAJOR CHALLENGES I FACED:** 
 1. Building a responsive website that smoothly adjust to change in dimension
 2. Create smaller menu within the website 
 3. Switch between “View More” and “View Less” buttons 
 
-**Some features I want to adapt in the future:**
+**SOME FEATURES I'M STILL WORKING ON**
 * Cursor using blend mode 
 * Toggle that change between dark and bright mode 
 * Animation as user scrolls through
 
 
-3. **Reference & Credit** 
+**REFERENCE & CREDITS** 
 
 **Tutorials:** 
 * [W3Schools Online Web Tutorials](https://www.w3schools.com/)
