@@ -1,4 +1,4 @@
-**mai’s space** in-mai-space.github.io
+**MY PERSONAL WEBSITE** in-mai-space.github.io
 
 
 This 2023 summer project is a personal website, where I build a backbone structure to display info related to work experience, projects portfolio and contact detail. 
