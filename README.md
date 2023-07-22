@@ -1,4 +1,5 @@
-# in-mai-space.github.io
+**mai’s space** in-mai-space.github.io
+
 
 This 2023 summer project is a personal website, where I build a backbone structure to display info related to work experience, projects portfolio and contact detail. 
 
@@ -19,7 +20,7 @@ While building this project, I designed the user interface of the webpage using 
 
 3. **Reference & Credit** 
 
-~Tutorials:~ 
+**Tutorials:** 
 [W3Schools Online Web Tutorials](https://www.w3schools.com/)
 [CSS Grid](https://www.youtube.com/watch?v=68O6eOGAGqA)
 [Flexbox](https://www.youtube.com/watch?v=u044iM9xsWU)
@@ -27,14 +28,14 @@ While building this project, I designed the user interface of the webpage using 
 [Scroll Reveal Effects](https://www.youtube.com/watch?v=Zwa5z9Ws7y4)
 [HTML & CSS Timeline Design](https://www.youtube.com/watch?v=bI3J5rUonEg)
 
-~Library:~ 
+**Library:** 
 [ScrollReveal](https://scrollrevealjs.org/)
 [jQuery](https://jquery.com/)
 
-~Icons~: 
+**Icons:** 
 [Feather](https://feathericons.com/)
 
-~Google Fonts:~ 
+**Google Fonts:** 
 Alfa Slab One 
 Instrument Sans 
 Nanum Pen Script 
