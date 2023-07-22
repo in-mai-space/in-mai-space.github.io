@@ -17,7 +17,7 @@ While building this project, I designed the user interface of the webpage using 
 * Cursor using blend mode 
 * Toggle that change between dark and bright mode 
 * Animation as user scrolls through
-
+* View on smaller devices different from laptop 
 
 **REFERENCE & CREDITS** 
 
