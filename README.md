@@ -1,5 +1,5 @@
 **MY PERSONAL WEBSITE** 
-<a href="[https://in-mai-space.github.io](https://in-mai-space.github.io/)" target="_blank>in-mai-space.github.io</a>
+[https://in-mai-space.github.io](https://in-mai-space.github.io/)
 
 
 This is a personal website project, where I build a backbone structure to display info related to work experience, projects portfolio and contact detail. 
