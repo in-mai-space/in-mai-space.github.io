@@ -1,0 +1,19 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="40" fill="#2c5741" />
+  <path
+    d="M90 40C127 60 137 108 90 140C43 108 53 60 90 40Z"
+    fill="#e8f0e3"
+  />
+  <path
+    d="M90 140V56"
+    stroke="#2c5741"
+    stroke-width="7"
+    stroke-linecap="round"
+  />
+  <path
+    d="M90 92L112 72M90 112L68 92"
+    stroke="#2c5741"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+</svg>
