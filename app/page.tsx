@@ -2,7 +2,6 @@ import { BackToTop } from '@/components/back-to-top'
 import { Contact } from '@/components/contact'
 import { Cooking } from '@/components/cooking'
 import { Experience } from '@/components/experience'
-import { Films } from '@/components/films'
 import { Hero } from '@/components/hero'
 import { LeafFall } from '@/components/leaf-fall'
 import { Projects } from '@/components/projects'
@@ -21,7 +20,6 @@ export default function Page() {
         <Projects />
         <Reading />
         <Cooking />
-        <Films />
         <Contact />
       </main>
       <BackToTop />

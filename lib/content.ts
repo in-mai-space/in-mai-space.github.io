@@ -13,7 +13,6 @@ export const sections = [
   { id: 'projects', label: 'Projects' },
   { id: 'reading', label: 'Reading' },
   { id: 'cooking', label: 'Cooking' },
-  { id: 'films', label: 'Films' },
   { id: 'contact', label: 'Contact' },
 ] as const
 
@@ -49,7 +48,7 @@ export const roles = [
       'https://fortune.com/2025/11/12/elias-torress-agency-raises-20-million-series-a-to-chase-agentic-ai-for-customer-success/',
     period: 'May 2025 – Dec 2025 · May 2026 – Aug 2026',
     blurb:
-      'Startup product work, with real customers and real traffic behind everything I worked on. I built AI health scores, broadcast tooling to reach every customer across channels, and pipelines that backfill and ingest product data from warehouses, customer sources, APIs, and S3 buckets. I also ran zero-downtime migrations off old systems onto new ones, and optimized queries and precompute to cut costs.',
+      'I built AI health scores, broadcast tooling to reach every customer across channels, and pipelines that backfill and ingest product data from warehouses, customer sources, APIs, and S3 buckets. I also ran zero-downtime migrations off old systems onto new ones, and optimized queries and precompute to cut costs.',
     stack: [
       'Python',
       'TypeScript',
@@ -202,81 +201,6 @@ export const dishes = [
     src: '/cooking/osso-buco.jpg',
     alt: 'Braised veal shanks in tomato sauce plated over polenta, finished with gremolata and strands of citrus zest',
     caption: 'Osso buco over polenta with gremolata',
-  },
-]
-
-const letterboxd = (slug: string) => `https://letterboxd.com/film/${slug}/`
-
-export const films = [
-  {
-    title: 'The Shawshank Redemption',
-    year: '1994',
-    director: 'Frank Darabont',
-    note: 'The patience of it, and still the best final twenty minutes in film.',
-    href: letterboxd('the-shawshank-redemption'),
-  },
-  {
-    title: 'Citizen Kane',
-    year: '1941',
-    director: 'Orson Welles',
-    note: 'Every shot is a lesson in depth of field.',
-    href: letterboxd('citizen-kane'),
-  },
-  {
-    title: 'The Battle of Algiers',
-    year: '1966',
-    director: 'Gillo Pontecorvo',
-    note: 'Shot like a documentary, and it hits like one too.',
-    href: letterboxd('the-battle-of-algiers'),
-  },
-  {
-    title: 'Bicycle Thieves',
-    year: '1948',
-    director: 'Vittorio De Sica',
-    note: 'Ninety minutes, one bicycle, completely wrecked me.',
-    href: letterboxd('bicycle-thieves'),
-  },
-  {
-    title: 'Forrest Gump',
-    year: '1994',
-    director: 'Robert Zemeckis',
-    note: 'A comfort watch that somehow gets sadder every rewatch.',
-    href: letterboxd('forrest-gump'),
-  },
-  {
-    title: 'The Wild Robot',
-    year: '2024',
-    director: 'Chris Sanders',
-    note: 'Gorgeous animation, and unexpectedly a film about parenting.',
-    href: letterboxd('the-wild-robot'),
-  },
-]
-
-export const shows = [
-  {
-    title: 'My Dearest',
-    tag: 'sageuk heartbreak',
-    href: letterboxd('my-dearest-2023'),
-  },
-  {
-    title: 'Twinkling Watermelon',
-    tag: 'time-travel band',
-    href: letterboxd('twinkling-watermelon'),
-  },
-  {
-    title: 'When Life Gives You Tangerines',
-    tag: 'Jeju, generations',
-    href: letterboxd('when-life-gives-you-tangerines-2025'),
-  },
-  {
-    title: 'Tale of the Nine Tailed 1938',
-    tag: 'gumiho, but 1938',
-    href: letterboxd('tale-of-the-nine-tailed-1938'),
-  },
-  {
-    title: 'Sherlock',
-    tag: 'the BBC one',
-    href: letterboxd('sherlock-a-study-in-pink'),
   },
 ]
 
