@@ -25,8 +25,8 @@ export const heroTags = [
   'backend',
   'data engineering',
   'cooking',
-  'books',
-  'films',
+  'reading',
+  'swimming',
 ]
 
 export const greetings = [
@@ -157,8 +157,8 @@ export type Book = {
 }
 
 export const shelf: Book[] = [
-  { title: 'The House of the Dead', author: 'Fyodor Dostoevsky', current: true },
-  { title: 'The Gay Science', author: 'Friedrich Nietzsche' },
+  { title: 'Kafka on the Shore', author: 'Haruki Murakami', current: true },
+  { title: 'The House of the Dead', author: 'Fyodor Dostoevsky' },
   { title: 'The Brothers Karamazov', author: 'Fyodor Dostoevsky' },
   { title: 'Crime and Punishment', author: 'Fyodor Dostoevsky' },
   { title: 'Stoner', author: 'John Williams' },
