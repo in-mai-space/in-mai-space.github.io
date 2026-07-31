@@ -48,7 +48,7 @@ export const roles = [
       'https://fortune.com/2025/11/12/elias-torress-agency-raises-20-million-series-a-to-chase-agentic-ai-for-customer-success/',
     period: 'May 2025 – Dec 2025 · May 2026 – Aug 2026',
     blurb:
-      'Startup product work, with real customers and real traffic behind everything I worked on. I built AI health scores, broadcast tooling to reach every customer across channels, and pipelines that backfill and ingest product data from warehouses, customer sources, APIs, and S3 buckets. I also ran zero-downtime migrations off old systems onto new ones, and optimized queries and precompute to cut costs.',
+      'I built AI health scores, broadcast tooling to reach every customer across channels, and pipelines that backfill and ingest product data from warehouses, customer sources, APIs, and S3 buckets. I also ran zero-downtime migrations off old systems onto new ones, and optimized queries and precompute to cut costs.',
     stack: [
       'Python',
       'TypeScript',
