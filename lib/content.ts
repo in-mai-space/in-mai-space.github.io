@@ -157,7 +157,12 @@ export type Book = {
 }
 
 export const shelf: Book[] = [
-  { title: 'Kafka on the Shore', author: 'Haruki Murakami', current: true },
+  { title: 'Demons', author: 'Fyodor Dostoevsky', current: true },
+  { title: "Nobody's Boy", author: 'Hector Malot'},
+  { title: 'Empire of Illusions', author: 'Chris Hedges'}, 
+  { title: 'White Nights', author: 'Fyodor Dostoevsky'},
+  { title: 'Meditations', author: 'Marcus Aurelius'},
+  { title: 'Kafka on the Shore', author: 'Haruki Murakami' },
   { title: 'The House of the Dead', author: 'Fyodor Dostoevsky' },
   { title: 'The Brothers Karamazov', author: 'Fyodor Dostoevsky' },
   { title: 'Crime and Punishment', author: 'Fyodor Dostoevsky' },
