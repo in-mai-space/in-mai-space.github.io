@@ -179,7 +179,6 @@ export const shelf: Book[] = [
   { title: 'The Burnout Society', author: 'Byung-Chul Han' },
   { title: 'The Palliative Society', author: 'Byung-Chul Han' },
   { title: 'The Little Prince', author: 'Antoine de Saint-Exupéry' },
-  { title: 'Meditations', author: 'Marcus Aurelius' },
   { title: 'The Wisdom of Insecurity', author: 'Alan Watts' },
   { title: 'When Things Fall Apart', author: 'Pema Chödrön' },
   { title: "Zen Mind, Beginner's Mind", author: 'Shunryu Suzuki' },
