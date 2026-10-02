@@ -1,11 +1,9 @@
 'use client'
 
-import { ChevronLeft, ChevronRight, Expand, X } from 'lucide-react'
+import { ChevronLeft, ChevronRight, X } from 'lucide-react'
 import Image from 'next/image'
 import { useCallback, useEffect, useState } from 'react'
-import { Reveal } from './reveal'
-import { SectionHeading } from './section-heading'
-import { dishes, sectionIndex } from '@/lib/content'
+import { dishes } from '@/lib/content'
 
 function Lightbox({
   index,
@@ -105,47 +103,28 @@ export function Cooking() {
   )
 
   return (
-    <section id="cooking" className="section">
-      <div className="shell">
-        <SectionHeading
-          index={sectionIndex('cooking')}
-          label="In the kitchen"
-          title={
-            <>
-              Cooking & <span className="font-serif italic text-accent">feeding people</span>
-            </>
-          }
-          lede="I love cooking and experimenting with food. Some days that means dinner on the table at home, other days it means trays and trays of prep (and unfortunately a lot of dishes to wash). A few things from lately."
-        />
-
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:mt-10 sm:grid-cols-4">
-          {dishes.map((dish, i) => (
-            <Reveal key={dish.src} delay={i * 70}>
-              <button
-                type="button"
-                onClick={() => setOpen(i)}
-                className="group relative block aspect-square w-full overflow-hidden rounded-xl border border-border bg-card"
-              >
-                <Image
-                  src={dish.src}
-                  alt={dish.alt}
-                  fill
-                  sizes="(max-width: 640px) 50vw, 25vw"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <span className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 via-black/10 to-transparent p-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100">
-                  <span className="flex items-center gap-1.5 text-left text-xs font-medium text-white">
-                    <Expand className="size-3.5 shrink-0" />
-                    {dish.caption}
-                  </span>
-                </span>
-              </button>
-            </Reveal>
-          ))}
-        </div>
+    <>
+      <div className="grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+        {dishes.map((dish, i) => (
+          <button
+            key={dish.src}
+            type="button"
+            onClick={() => setOpen(i)}
+            aria-label={dish.caption}
+            className="group relative block aspect-square w-full overflow-hidden rounded-md bg-muted"
+          >
+            <Image
+              src={dish.src}
+              alt={dish.alt}
+              fill
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 14rem, 7rem"
+              className="object-cover transition-opacity duration-300 group-hover:opacity-85"
+            />
+          </button>
+        ))}
       </div>
 
       {open !== null && <Lightbox index={open} onClose={close} onStep={step} />}
-    </section>
+    </>
   )
 }
