@@ -1,6 +1,5 @@
 export const site = {
   name: 'in-mai-space',
-  tagline: 'Backend & data engineering',
   description:
     'CS + Math senior at Northeastern. Backend development, data engineering, and distributed systems, plus reading, cooking, swimming, and learning Mandarin.',
   email: 'thisismainguyen@gmail.com',
