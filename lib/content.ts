@@ -2,7 +2,7 @@ export const site = {
   name: 'in-mai-space',
   description:
     'CS + Math senior at Northeastern. Backend development, data engineering, and distributed systems, plus reading, cooking, swimming, and learning Mandarin.',
-  email: 'thisismainguyen@gmail.com',
+  email: 'mainguyen.work@protonmail.com',
   timezone: 'America/New_York',
   location: 'Boston, MA',
 }
