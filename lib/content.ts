@@ -81,6 +81,22 @@ export const projects: Project[] = [
     tags: ['TypeScript', 'React', 'Vite', 'Sanity', 'Oxlint'],
   },
   {
+    name: 'in-mai-space',
+    href: 'https://github.com/in-mai-space/in-mai-space.github.io',
+    year: 'Summer 2026',
+    desc:
+      'This site. A small personal corner for work, projects, books, and cooking, deployed to GitHub Pages.',
+    tags: ['TypeScript', 'React', 'Next.js', 'Tailwind'],
+  },
+  {
+    name: 'slack-emoji',
+    href: 'https://github.com/in-mai-space/slack-emoji',
+    year: 'Summer 2026',
+    desc:
+      "A quick CLI that moves every custom emoji from one Slack workspace to another through Slack's unofficial API, instead of uploading them one by one.",
+    tags: ['Python'],
+  },
+  {
     name: 'toggo',
     href: generatenu('toggo'),
     year: 'Spring 2026',
