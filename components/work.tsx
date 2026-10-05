@@ -55,50 +55,67 @@ export function Work() {
 
 export function Projects() {
   return (
-    <Accordion
-      className="divide-y divide-border"
-      items={projects.map((p) => ({
-        id: slug(p.name),
-        header: (
-          <div className="flex items-baseline justify-between gap-6">
-            <p className="flex items-center gap-2.5">
-              <span className="font-medium transition-colors group-hover:text-accent group-data-open:text-accent">
-                {p.name}
-              </span>
-              {p.inProgress && (
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.12em] text-accent">
-                  <span className="relative flex size-1.5">
-                    <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-60" />
-                    <span className="relative inline-flex size-1.5 rounded-full bg-accent" />
-                  </span>
-                  In progress
+    <>
+      <p className="mb-3 text-pretty text-sm leading-relaxed text-muted-foreground">
+        Client and internal projects were built at{' '}
+        <a
+          href="https://generatenu.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-foreground underline decoration-border underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
+        >
+          Generate
+        </a>
+        , Northeastern&apos;s student-run product studio that builds software for startups and nonprofits.
+      </p>
+      <Accordion
+        className="divide-y divide-border"
+        items={projects.map((p) => ({
+          id: slug(p.name),
+          header: (
+            <div className="flex items-baseline justify-between gap-6">
+              <p className="flex items-center gap-2.5">
+                <span className="font-medium transition-colors group-hover:text-accent group-data-open:text-accent">
+                  {p.name}
                 </span>
-              )}
-            </p>
-            <span className="shrink-0 font-mono text-xs text-muted-foreground">{p.year}</span>
-          </div>
-        ),
-        body: (
-          <>
-            <p className="text-pretty text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
-            <div className="mt-2 flex items-center justify-between gap-4">
-              <p className="font-mono text-xs text-muted-foreground">{p.tags.join(' · ')}</p>
-              {p.href && (
-                <a
-                  href={p.href}
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label={`${p.name} on GitHub`}
-                  title="View on GitHub"
-                  className="flex size-7 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:border-accent hover:text-accent"
-                >
-                  <ArrowUpRight className="size-3.5" />
-                </a>
-              )}
+                <span className="rounded-full border border-border px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
+                  {p.kind}
+                </span>
+                {p.inProgress && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-accent-soft px-2 py-0.5 font-mono text-[10px] uppercase tracking-[0.12em] text-accent">
+                    <span className="relative flex size-1.5">
+                      <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-60" />
+                      <span className="relative inline-flex size-1.5 rounded-full bg-accent" />
+                    </span>
+                    In progress
+                  </span>
+                )}
+              </p>
+              <span className="shrink-0 font-mono text-xs text-muted-foreground">{p.year}</span>
             </div>
-          </>
-        ),
-      }))}
-    />
+          ),
+          body: (
+            <>
+              <p className="text-pretty text-sm leading-relaxed text-muted-foreground">{p.desc}</p>
+              <div className="mt-2 flex items-center justify-between gap-4">
+                <p className="font-mono text-xs text-muted-foreground">{p.tags.join(' · ')}</p>
+                {p.href && (
+                  <a
+                    href={p.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${p.name} on GitHub`}
+                    title="View on GitHub"
+                    className="flex size-7 shrink-0 items-center justify-center rounded-full border border-border text-muted-foreground transition-colors hover:border-accent hover:text-accent"
+                  >
+                    <ArrowUpRight className="size-3.5" />
+                  </a>
+                )}
+              </div>
+            </>
+          ),
+        }))}
+      />
+    </>
   )
 }

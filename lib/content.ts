@@ -56,6 +56,7 @@ export type Project = {
   year: string
   desc: string
   tags: string[]
+  kind: 'personal' | 'client' | 'internal'
   href?: string
   inProgress?: boolean
 }
@@ -65,6 +66,7 @@ const generatenu = (repo: string) => `https://github.com/GenerateNU/${repo}`
 export const projects: Project[] = [
   {
     name: 'shellfish',
+    kind: 'personal',
     href: 'https://github.com/in-mai-space/shellfish',
     year: 'Fall 2026',
     desc:
@@ -74,6 +76,7 @@ export const projects: Project[] = [
   },
   {
     name: 'generate website',
+    kind: 'internal',
     href: generatenu('website'),
     year: 'Fall 2026',
     desc:
@@ -82,6 +85,7 @@ export const projects: Project[] = [
   },
   {
     name: 'in-mai-space',
+    kind: 'personal',
     href: 'https://github.com/in-mai-space/in-mai-space.github.io',
     year: 'Summer 2026',
     desc:
@@ -90,6 +94,7 @@ export const projects: Project[] = [
   },
   {
     name: 'slack-emoji',
+    kind: 'personal',
     href: 'https://github.com/in-mai-space/slack-emoji',
     year: 'Summer 2026',
     desc:
@@ -98,6 +103,7 @@ export const projects: Project[] = [
   },
   {
     name: 'toggo',
+    kind: 'client',
     href: generatenu('toggo'),
     year: 'Spring 2026',
     desc:
@@ -114,6 +120,7 @@ export const projects: Project[] = [
   },
   {
     name: 'dearly',
+    kind: 'client',
     href: generatenu('dearly'),
     year: 'Spring 2025',
     desc:
@@ -122,6 +129,7 @@ export const projects: Project[] = [
   },
   {
     name: 'snapper',
+    kind: 'client',
     href: generatenu('snapper'),
     year: 'Fall 2024',
     desc:
@@ -130,6 +138,7 @@ export const projects: Project[] = [
   },
   {
     name: 'student activity calendar',
+    kind: 'client',
     href: generatenu('sac'),
     year: 'Spring 2024',
     desc:
